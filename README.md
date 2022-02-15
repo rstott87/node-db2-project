@@ -14,7 +14,7 @@ Your assignment page on Canvas should contain instructions for submitting this p
 
 Build a RESTful API for an "cars" resource. The client for this API is a car dealer.
 
-#### Cars Schema f
+#### Cars Schema 
 
 The critical information for each car is the vin, make, model, and mileage. They also track transmission type (manual, automatic...) and status of the title (clean, salvage...), but this information is not always immediately known. Write the "up" and "down" functions inside the `data/migrations/01-make_cars_table.js` migration file to satisfy the following schema:
 

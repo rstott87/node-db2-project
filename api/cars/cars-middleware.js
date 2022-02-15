@@ -1,5 +1,10 @@
+const Car = require('./cars-model')
+
 const checkCarId = (req, res, next) => {
   // DO YOUR MAGIC
+
+next()
+   }
 }
 
 const checkCarPayload = (req, res, next) => {
